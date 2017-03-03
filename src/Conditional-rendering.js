@@ -64,22 +64,15 @@ export class LoginControl extends React.Component {
             <div>
                 <Greeting isLoggedIn={isLoggedIn} />
                 {button}
-
                 <h1>Hello!</h1>
                 {unreadMessages.length > 0 &&
                 <h2>
                     You have {unreadMessages.length} unread messages.
                 </h2>
                 }
-
-                {/*{isLoggedIn ? (
-                        <LogoutButton onClick={this.handleLogoutClick} />
-                    ) : (
-                        <LoginButton onClick={this.handleLoginClick} />
-                    )*/}
             </div>
         );
     }
-}
+};
 
-export default Greeting
+export default Greeting;
