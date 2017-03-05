@@ -24,6 +24,7 @@ class NameForm extends React.Component {
                 <label>
                     Name:
                     <input type="text" value={this.state.value} onChange={this.handleChange} />
+                    {/* Notice: do not assign value to state auto */}
                 </label>
                 <input type="submit" value="Submit" />
             </form>

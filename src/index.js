@@ -5,6 +5,7 @@ import Timer from './Timer';
 import './index.css';
 import Greeting, {LoginControl} from './Conditional-rendering'
 import './List-key'
+import './1.13.2-identify-the-minimal'
 
 ReactDOM.render(
   /*<Greeting isLoggedIn={true} />,*/
